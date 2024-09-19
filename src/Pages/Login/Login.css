@@ -1,0 +1,108 @@
+
+#Components {
+
+position: relative;
+width: 500px;
+height: 520px;
+background: rgb(30, 92, 57);
+border-radius: 10px;
+color: white;
+
+}
+
+#Components #form-box {
+
+width: 100%;
+padding: 50px;
+
+
+}
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url('/src/components/assets/wallpaper\ 6.png')
+no-repeat;
+
+}
+
+.Header {
+
+color: black;
+
+}
+
+form h1 {
+
+font-size: 36px;
+margin-left: 150px ;
+
+
+}
+
+form #Inputs {
+
+position: relative;
+width: 75%;
+height: 50px;
+margin-left: -5px;
+margin-top: 20px;
+margin-bottom: 40px;
+/*background: salmon;*/
+
+}
+
+#Inputs input {
+
+
+width: 98%;
+height: 45px;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 1);
+border-radius: 40px;
+font-size: 16px;
+color: white;
+padding: 5px 20px 5px 20px;
+
+}
+
+#Inputs input::placeholder {
+
+color: white;
+
+
+}
+
+
+form #remember-forgot{
+
+display: flex;
+justify-content: space-between;
+padding-right: 100px;
+padding-bottom: 40px;
+
+}
+
+
+form button {
+
+
+
+width: 400px;
+height: 45px;
+background: white;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 700;
+
+}
